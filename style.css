@@ -1,0 +1,113 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.bg-image {
+  background-image: url('assets/main\ bg.jpg');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.logo-text {
+  position: absolute;
+  top: 30px;
+  left: 40px;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.login-form {
+  background-color: #00000000;
+  padding: 2rem;
+  border-radius: 2rem;
+  width: 300px;
+  backdrop-filter: blur(10px);
+}
+
+.circle-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.ticket-text {
+  border: 1px solid orange;
+  border-radius: 50%;
+  padding: 10px 20px;
+  color: black;
+}
+
+.rounded-start-custom {
+  border-top-left-radius: 100px;
+}
+
+.category-list li {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.category-list .dot {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background-color: orange;
+  border-radius: 50%;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #fff;
+  color: #000;
+}
+
+.navbar {
+  border-bottom: 2px solid #e0e0e0;
+  padding: 1rem 0;
+}
+
+.navbar-brand {
+  line-height: 1;
+}
+
+.navbar-nav .nav-link {
+  margin: 0 10px;
+  font-weight: 500;
+}
+
+.hero-section .highlight-text {
+  color: #f5b301;
+  font-weight: 800;
+  font-family: 'Arial Black', sans-serif;
+  text-transform: uppercase;
+  line-height: 1.3;
+}
+
+.arrow-black {
+  font-size: 3rem;
+  color: #000;
+  display: inline-block;
+  margin-right: 10px;
+  transform: rotate(-10deg);
+}
+
+.card-img-top {
+  object-fit: cover;
+  height: 300px;
+}
+
+.festival-desc {
+  padding-right: 1rem;
+  color: #000;
+}
+
+.btn-dark {
+  border-radius: 8px;
+  font-size: 0.9rem;
+}
