@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ticket Booking</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div class="booking-container">
+    <h1>Book Your Ticket</h1>
+    <form action="payment.html" method="GET">
+      <!-- Personal Info -->
+      <div class="form-group">
+        <label for="name">Full Name</label>
+        <input type="text" id="name" name="name" placeholder="Your full name" required/>
+      </div>
+
+      <div class="form-group">
+        <label for="email">Email Address</label>
+        <input type="email" id="email" name="email" placeholder="you@example.com" required/>
+      </div>
+
+      <div class="form-group">
+        <label for="phone">Phone Number</label>
+        <input type="tel" id="phone" name="phone" placeholder="081234567890" required/>
+      </div>
+
+      <!-- Ticket Selection -->
+      <div class="form-group">
+        <label for="event">Event</label>
+        <select id="event" name="event" required>
+          <option value="" disabled selected>Select an event</option>
+          <option value="green_day">Green Day Live in Jakarta</option>
+          <option value="cas">Cigarettes After Sex Live in Jakarta</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label for="ticket-type">Ticket Type</label>
+        <select id="ticket-type" name="ticketType" required>
+          <option value="" disabled selected>Select ticket type</option>
+          <option value="standard">Standard - $30</option>
+          <option value="vip">VIP - $75</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label for="quantity">Number of Tickets</label>
+        <input type="number" id="quantity" name="quantity" min="1" max="10" required />
+      </div>
+
+      <button type="submit" class="btn-book">Proceed to Payment</button>
+    </form>
+  </div>
+
+</body>
+</html>

@@ -1,3 +1,5 @@
+/* Login-Register Page */
+
 body, html {
   margin: 0;
   padding: 0;
@@ -27,6 +29,8 @@ body, html {
   width: 300px;
   backdrop-filter: blur(10px);
 }
+
+/* Home Page */
 
 .circle-img {
   width: 50px;
@@ -60,6 +64,8 @@ body, html {
   margin-right: 8px;
   vertical-align: middle;
 }
+
+/* Dashboard Page */
 
 body {
   font-family: 'Segoe UI', sans-serif;
@@ -107,7 +113,155 @@ body {
   color: #000;
 }
 
-.btn-dark {
+.button {
   border-radius: 8px;
   font-size: 0.9rem;
+  color: #f5b301;
+}
+
+/* Ticket Booking Page */
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f8f9fa;
+  margin: 0;
+  padding: 0;
+}
+
+.booking-container {
+  max-width: 500px;
+  margin: 50px auto;
+  background-color: white;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #f9a825;
+  margin-bottom: 30px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 600;
+  color: #333;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+.btn-book {
+  width: 100%;
+  padding: 12px;
+  background-color: #f9a825;
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-book:hover {
+  background-color: #f57f17;
+}
+
+/* Profile */
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f4f6f8;
+  margin: 0;
+  padding: 0;
+}
+
+.profile-container {
+  max-width: 800px;
+  margin: 50px auto;
+  background-color: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #f9a825;
+  margin-bottom: 40px;
+}
+
+.navbar .nav-link {
+  color: #333;
+}
+
+.navbar .nav-link:hover {
+  color: #f9a825;
+}
+
+/* User card */
+.user-card {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  background-color: #f9a825;
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 40px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+}
+
+.user-icon i {
+  font-size: 80px;
+  color: #ffffff;
+}
+
+.user-details h2 {
+  margin: 0;
+  font-size: 1.5rem;
+  color: #ffffff;
+}
+
+.user-details p {
+  margin: 4px 0;
+  color: #ffffff;
+}
+
+/* Ticket card */
+
+.ticket-info h2 {
+  margin-bottom: 20px;
+  color: #444;
+}
+
+.ticket-card {
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 12px;
+  background-color: #fefefe;
+  transition: 0.3s;
+}
+
+.ticket-card:hover {
+  background-color: #fdf3e7;
+  border-color: #f9a825;
+}
+
+.ticket-card h3 {
+  margin-top: 0;
+  color: #333;
 }
